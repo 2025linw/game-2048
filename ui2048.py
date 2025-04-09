@@ -3,7 +3,7 @@ import game2048
 import ai2048
 
 import pygame
-import pygame_gui
+# import pygame_gui
 
 # Window Dimension
 W_SIZE = 500
@@ -108,11 +108,11 @@ def main():
     auto = False
 
     # Game Initialization
-    # game = game2048.Board()
+    game = game2048.Board()
 
-    game = ai2048.RandomAI()
+    # game = ai2048.RandomAI()
     # game = ai2048.GreedyAI()
-    # game = ai2048.AveragedDLS(3, 8)
+    # game = ai2048.AveragedDLS(3, 16)
     game.start()
 
     while running:
