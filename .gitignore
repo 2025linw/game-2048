@@ -1,5 +1,8 @@
 # Remove Macbook Finder files
 .DS_Store
 
-# Python cache files
-__pycache__/*
+# Python Cache Files
+__pycache__
+
+# Python Virtual Environment
+.venv
